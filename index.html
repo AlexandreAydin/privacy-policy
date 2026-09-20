@@ -1,34 +1,66 @@
 <!doctype html>
-<html lang="en">
+<html lang="tr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Privacy Policy</title>
+  <title>Hilalo</title>
+  <meta name="description" content="Hilalo: 9 dilde bilgi yarışması. Seviye atla, arkadaşlarınla çevrimiçi düello yap.">
+  <link rel="icon" href="brand/icon.png">
+  <meta property="og:title" content="Hilalo">
+  <meta property="og:description" content="9 dilde bilgi yarışması. Seviye atla, arkadaşlarınla düello yap.">
+  <meta property="og:image" content="https://hilalo.app/brand/icon.png">
   <style>
-  :root { color-scheme: light dark; }
-  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.6;
-         max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; color: #1e293b; background: #fff; }
-  @media (prefers-color-scheme: dark) { body { color: #e2e8f0; background: #0f172a; } a { color: #fbbf24; } }
-  h1 { font-size: 1.8rem; margin-bottom: 0.2em; }
-  h2 { font-size: 1.15rem; margin-top: 1.6em; }
-  .version { color: #f59e0b; font-weight: 700; }
-  nav { font-size: 0.9rem; margin-bottom: 1.5em; display: flex; flex-wrap: wrap; gap: 8px 14px; }
-  p { margin: 0.5em 0; }
- li { margin: 6px 0; }</style>
+    :root { color-scheme: light dark; --bg:#fff; --fg:#1e293b; --muted:#64748b; --accent:#0f766e; --card:#f1f5f9; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#0f172a; --fg:#e2e8f0; --muted:#94a3b8; --accent:#fbbf24; --card:#1e293b; } }
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height:1.6; max-width:760px;
+           margin:0 auto; padding:40px 16px 64px; color:var(--fg); background:var(--bg); }
+    .logo { display:block; width:min(340px, 80%); margin:0 auto 8px; }
+    .logo-dark { display:none; }
+    @media (prefers-color-scheme: dark) { .logo-light { display:none; } .logo-dark { display:block; } }
+    h1 { text-align:center; font-size:1.6rem; margin:0 0 4px; }
+    .tag { text-align:center; color:var(--muted); margin:0 0 28px; }
+    ul.feat { padding-left:20px; }
+    li { margin:6px 0; }
+    .stores { display:flex; flex-wrap:wrap; gap:12px; justify-content:center; margin:28px 0; }
+    .stores span { background:var(--card); padding:10px 18px; border-radius:10px; color:var(--muted); }
+    h2 { font-size:1.15rem; margin-top:2em; }
+    a { color:var(--accent); }
+    nav { display:flex; flex-wrap:wrap; gap:6px 14px; font-size:0.95rem; }
+    footer { margin-top:40px; color:var(--muted); font-size:0.85rem; text-align:center; }
+  </style>
 </head>
 <body>
-  <h1>Privacy Policy / Gizlilik Politikası</h1>
-  <p class="version">Version 2026-09-19.2 · effective 2026-09-19</p>
-  <ul>
-    <li><a href="tr.html" lang="tr">Türkçe — Gizlilik Politikası</a></li>
-    <li><a href="en.html" lang="en">English — Privacy Policy</a></li>
-    <li><a href="fr.html" lang="fr">Français — Politique de confidentialité</a></li>
-    <li><a href="de.html" lang="de">Deutsch — Datenschutzerklärung</a></li>
-    <li><a href="ar.html" lang="ar">العربية — سياسة الخصوصية</a></li>
-    <li><a href="ur.html" lang="ur">اردو — رازداری کی پالیسی</a></li>
-    <li><a href="hi.html" lang="hi">हिन्दी — गोपनीयता नीति</a></li>
-    <li><a href="id.html" lang="id">Bahasa Indonesia — Kebijakan Privasi</a></li>
-    <li><a href="ku.html" lang="ku">Kurdî — Polîtîkaya Nepeniyê</a></li>
+  <img class="logo logo-light" src="brand/logo-on-light.png" alt="Hilalo">
+  <img class="logo logo-dark" src="brand/logo-on-dark.png" alt="Hilalo">
+  <h1>Hilalo</h1>
+  <p class="tag">9 dilde bilgi yarışması · Quiz in 9 languages · Quiz en 9 langues</p>
+
+  <ul class="feat">
+    <li>5000 soruluk banka, 10 seviye: seviye 10'dan başla, seviye 1'e yüksel.</li>
+    <li>Çevrimiçi: seviyendeki bir rakiple aynı sorular, herkes kendi dilinde.</li>
+    <li>Arkadaşlarını ekle, düello daveti gönder, ikili sicilini gör.</li>
+    <li>Türkçe · English · Français · Deutsch · العربية · اردو · हिन्दी · Bahasa Indonesia · Kurdî</li>
+    <li>Reklam yok. Tek oyuncu mod hesapsız çalışır.</li>
   </ul>
+
+  <div class="stores">
+    <span>Google Play — yakında</span>
+    <span>App Store — yakında</span>
+  </div>
+
+  <h2 id="privacy">Gizlilik politikası · Privacy policy</h2>
+  <nav>
+    <a href="tr.html" lang="tr">Türkçe</a>
+    <a href="en.html" lang="en">English</a>
+    <a href="fr.html" lang="fr">Français</a>
+    <a href="de.html" lang="de">Deutsch</a>
+    <a href="ar.html" lang="ar">العربية</a>
+    <a href="ur.html" lang="ur">اردو</a>
+    <a href="hi.html" lang="hi">हिन्दी</a>
+    <a href="id.html" lang="id">Bahasa Indonesia</a>
+    <a href="ku.html" lang="ku">Kurdî</a>
+  </nav>
+
+  <footer>İletişim / Contact: <a href="mailto:yilmimarket@gmail.com">yilmimarket@gmail.com</a></footer>
 </body>
 </html>
